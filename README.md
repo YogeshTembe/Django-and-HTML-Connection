@@ -1,3 +1,3 @@
-# demo-1
+#Django and HTML Connection
 
 some description!!
