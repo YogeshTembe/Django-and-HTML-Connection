@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Python python</title>
+    </head>
+    <body>
+        <button onclick="location.href='{% url 'script' %}'">Simulate</button><hr>
+        {% if data %}
+        {{data}}
+        {% endif %}
+        <a>page1page1</a>
+        <form action="/external" method="POST">
+            {% csrf_token %}
+            input Text:
+            <input type="text" name="param" required><br>
+            {{data_external}}<br>
+            {{data1}}<br>
+            <input type="submit" value="external python script">
+        </form>
+    </body>
+</html>
